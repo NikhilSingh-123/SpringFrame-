@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<bean id="stu" class="com.entity.Student">
+
+		<property name="id" value="101"></property>
+		<property name="name" value="Rahul"></property>
+		<property name="course" value="Java"></property>
+		<property name="city" value="Pune"></property>
+		<property name="email" value="rahul@gmail.com"></property>
+		<property name="mobile" value="9876543210"></property>
+
+	</bean>
+
+	<bean id="dept" class="com.entity.Department">
+
+		<property name="deptId" value="10"></property>
+		<property name="deptName" value="IT"></property>
+		<property name="location" value="Mumbai"></property>
+		<property name="totalEmployee" value="50"></property>
+		<property name="managerName" value="Amit"></property>
+
+	</bean>
+
+</beans>
